@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+    padding: 40px 0;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 1.1em;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.data {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 80px;
+}
+
+.content {
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.content h3 {
+    padding: 40px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.content p {
+    line-height: 1.3em;
+    padding: 0 40px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1.3em;
+    letter-spacing: 10px;
+}
+
+a:link,
+a:active {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(162, 162, 162);
+}
+
+a:hover {
+    color: rgb(246, 196, 220);
+}
+
+@media only screen and (min-width: 420px) and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+}
